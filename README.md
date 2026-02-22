@@ -7,6 +7,8 @@ This repository implements an end-to-end ML workflow the SOCR Earthquake Dataset
 - train an Artificial Neural Network to predict earthquake magnitude with regression
 - evaluate and save the model + metrics
 
+The purpose of the project was learning machine learning.
+
 ## Quickstart
 
 ### 1) Create env + install
