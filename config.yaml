@@ -1,0 +1,25 @@
+dataset:
+  # If this URL fails, place a CSV at data/raw/earthquakes.csv and rerun.
+  url: "https://raw.githubusercontent.com/SOCR/Data/master/Earthquakes/earthquakes.csv"
+  raw_path: "data/raw/earthquakes.csv"
+  processed_dir: "data/processed"
+
+training:
+  test_size: 0.2
+  random_state: 42
+  target: "magnitude"
+
+model:
+  type: "ann_regression"
+  epochs: 30
+  batch_size: 256
+  learning_rate: 0.001
+  hidden_layers: [128, 64, 32]
+  dropout: 0.15
+  early_stopping_patience: 5
+
+artifacts:
+  model_path: "models/ann_magnitude.keras"
+  scaler_path: "models/scaler.joblib"
+  metrics_path: "reports/metrics.json"
+  figures_dir: "reports/figures"
