@@ -33,6 +33,4 @@ Outputs:
 - Quickstart: `docs/quickstart.md`
 - Tutorial: `docs/tutorial.md`
 - How-to guides: `docs/how-to/`
-- Explanations: `docs/explanations/`
-- Reference: `docs/reference/`
 
