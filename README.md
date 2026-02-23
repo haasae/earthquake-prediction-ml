@@ -1,13 +1,6 @@
 # Earthquake Magnitude Prediction (Reproducible ML Pipeline)
 
 Train and evaluate regression models that predict **earthquake magnitude** from event metadata (time, location, depth, etc.).
-
-This project is designed to look and feel like an industry ML repo:
-- reproducible entrypoints
-- robust data loading (comma **or** whitespace-delimited)
-- saved metrics and artifacts
-- documentation split by purpose (quickstart / how-to / explanations / reference)
-
 ## Quickstart (2 minutes)
 
 1) Create environment + install dependencies
@@ -43,8 +36,3 @@ Outputs:
 - Explanations: `docs/explanations/`
 - Reference: `docs/reference/`
 
-## What this project is (and isn’t)
-
-This is a portfolio-grade ML engineering project demonstrating data ingestion, feature engineering, evaluation and reproducibility.
-
-It is **not** a scientific earthquake prediction system.
