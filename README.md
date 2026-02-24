@@ -11,7 +11,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-2) Put your dataset (e.g. the ["SOCR Earthquake Dataset"] (http://socr.ucla.edu/docs/resources/SOCR_Data/SOCR_Data_Earthquakes_Over3.html))at:
+2) Put your dataset (e.g. the ["SOCR Earthquake Dataset"](http://socr.ucla.edu/docs/resources/SOCR_Data/SOCR_Data_Earthquakes_Over3.html)) at:
 
 ```text
 data/raw/earthquakes.csv
