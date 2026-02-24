@@ -1,6 +1,6 @@
 # How to speed up training
 
-If hyperparameter tuning feels slow on Windows laptops, reduce the tuning workload:
+If hyperparameter tuning feels slow on your laptop, reduce the tuning workload:
 
 1) Lower the number of search iterations:
 
